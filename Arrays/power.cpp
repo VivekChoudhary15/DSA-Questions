@@ -1,3 +1,8 @@
+#include <iostream>
+using namespace std;
+
+// Could have done it easier but it takes O(log n) time
+
 class Solution{
 public:
     double myPow(double x, int n){
