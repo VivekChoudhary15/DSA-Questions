@@ -32,3 +32,18 @@ public:
         return ans;
     }
 };
+
+int main() {
+    vector<int> arr = {4, 8, 5, 2, 25};
+    int n = arr.size();
+
+    vector<int> result = nextGreaterElement(arr, n);
+
+    cout << "Next smaller elements: ";
+    for (int i = 0; i < n; i++) {
+        cout << result[i] << " ";
+    }
+    cout << endl;
+
+    return 0;
+}
